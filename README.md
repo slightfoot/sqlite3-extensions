@@ -1,5 +1,4 @@
-## Various SQLite3 Extensions
-=============================
+## Various SQLite3 Extensions=
 
 *Note: These are not Unicode compatible. Support will be added later.*
 
@@ -8,20 +7,28 @@
 ----------------
 Currently the makefiles are targeted to compile the extensions as win32 dll files in MinGW.
 
-Simply clone the repo and run mingw_msys_make.bat. If you have installed MinGW to a different default directory you will need to edit the batch file.
+Simply clone the repo and run ```mingw_msys_make.bat```. If you have installed MinGW to a different default directory you will need to edit the batch file.
 
 
 ### Don't want to build them?
 -----------------------------
-I have included the precompiled win32 32bit binary DLL files in the repository. You can find a release of them on the releases page.
+I have included the precompiled win32 32bit binary DLL files in the repository.
+
+https://github.com/slightfoot/sqlite3-extensions/releases/tag/v1.0
+
 
 
 ### How to use the extensions
 -----------------------------
 Open the sqlite3 shell application. Type in one or all of the following:
-* .load <path to release>/sqlite3_base64_ext.dll
-* .load <path to release>/sqlite3_hex_ext.dll
-* .load <path to release>/sqlite3_pad_ext.dll
+* ```.load <path to release>/sqlite3_base64_ext.dll```
+* ```.load <path to release>/sqlite3_hex_ext.dll```
+* ```.load <path to release>/sqlite3_pad_ext.dll```
+
+
+### Questions?
+
+If you have any questions, comments or suggestions. Please contact me via GitHub.
 
 
 ### Extensions
