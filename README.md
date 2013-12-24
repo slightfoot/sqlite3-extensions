@@ -1,4 +1,4 @@
-## Various SQLite3 Extensions=
+## Various SQLite3 Extensions
 
 *Note: These are not Unicode compatible. Support will be added later.*
 
