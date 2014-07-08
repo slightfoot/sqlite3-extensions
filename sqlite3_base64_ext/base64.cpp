@@ -23,7 +23,7 @@
  *  51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-#include "base64.h"
+#include "polarssl/base64.h"
 #include <inttypes.h>
 
 static const unsigned char base64_enc_map[64] =

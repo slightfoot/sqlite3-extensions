@@ -18,7 +18,7 @@
 #include <sqlite_extensions.h>
 #include <string.h>
 #include <stdio.h>
-#include "base64.h"
+#include "polarssl/base64.h"
 
 typedef int (*polarssl_base64_func)(unsigned char *dst, size_t *dlen, const unsigned char *src, size_t slen);
 void base64_ext_func(sqlite3_context *context, int argc, sqlite3_value **argv);
