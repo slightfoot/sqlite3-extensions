@@ -14,7 +14,7 @@ Simply clone the repo and run ```mingw_msys_make.bat```. If you have installed M
 -----------------------------
 I have included the precompiled win32 32bit binary DLL files in the repository.
 
-https://github.com/slightfoot/sqlite3-extensions/releases/tag/v1.0
+https://github.com/slightfoot/sqlite3-extensions/releases/tag/v1.1
 
 
 
@@ -28,7 +28,8 @@ Open the sqlite3 shell application. Type in one or all of the following:
 
 ### Questions?
 
-If you have any questions, comments or suggestions. Please contact me via GitHub.
+If you have any questions, comments or suggestions.
+Contact me simon@demondevelopers.com
 
 
 ### Extensions
