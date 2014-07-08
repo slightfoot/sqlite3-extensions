@@ -51,6 +51,7 @@ If you have any questions, comments or suggestions. Please contact me via GitHub
     * ```INT64 value fromhex(MIXED hex)```
     
     Examples:
+    * ```SELECT fromhexstr("68656C6C6F20776F726C64"); // Result: "hello world"```
     * ```SELECT fromhex(tohex(1234)); // Result: 1234```
     * ```SELECT tohex(3735928559, 1); // Result: DEADBEEF```
 
